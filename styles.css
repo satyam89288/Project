@@ -1,0 +1,54 @@
+.stopwatch {
+    text-align: center;
+    margin-top: 50px;
+    background-color: red;
+    border-block-color: green;
+}
+
+#display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-style: dashed;
+}
+
+ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+li {
+    color: aqua;
+    margin-bottom: 5px;
+}
+body:hover{
+    background-color:aliceblue;
+    box-sizing: border-box;
+    background-color: seagreen;
+    background-image: -webkit-image-set("demo.gif");
+
+}
+#startPause{
+    color: red;
+    background-color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#reset{
+    color: aqua;
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#lap{
+color: green;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+background-color:gold
+}
+
